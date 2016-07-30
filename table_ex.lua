@@ -144,11 +144,3 @@ function dict(t)
 	end
 	return d
 end
-
-t1={1,3}
-t2={2,3}
-t = intersection(t1,t2)
-for k,v in pairs(t)
-do
-	print(v)
-end
